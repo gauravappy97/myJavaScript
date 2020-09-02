@@ -1,5 +1,6 @@
-<h1>This JavaScript repo contain 2 simple learning projects</h1>
+<h1>This JavaScript repo contains 2 basic learning projects</h1>
 <ul>
-    <li>1. Running clock</li>
-    <li>2. Todo list</li>
+    <li><h3>Running clock</h3></li>
+    
+    <li><h3>Todo list</h3></li>
 </ul>
