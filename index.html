@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+        querySelector & querySelectorAll Example
+        </h1>
+    </header>
+        <div class="container">
+        <div class="row">
+        <div class="col">.COL 1</div>
+        <div class="col">.COL 2</div>
+        <div class="col">.COL 3</div>
+        <div class="col">.COL 4</div>
+        <div class="col">.COL 5</div>
+        </div>
+        <div class="row">
+        <div id="exampleDiv">Example DIV</div>
+        </div>
+        </div>
+    <script>
+        tn = document.getElementsByTagName('div')
+        createElement = document.createElement('p')
+        createElement.innerText = 'This is a new a paragraph'
+        tn[0].appendChild(createElement);
+        createElement2 = document.createElement('b')
+        createElement.innerText = 'This is replaced paragraph'
+        // tn[0].replaceChild(createElement2,createElement)
+        function clicked(){
+            return console.log('button clicked')
+        }
+        // window.onload=function(){
+        //     return console.log('On loading button was clicked')
+        // firstContainer.addEventListener('click',function(){
+        //     console.log('button clicked')
+        // })
+        
+        // })
+        prevHtml = document.querySelectorAll('.container')
+        console.log(prevHtml)
+        // container.addEventListener('mouseover',function(){
+        //     document.querySelectorAll('.container')[1].innerHTML="<b> we have been clicked</b>"
+        // })
+    
+    </script>
+</body>
+
+</html>
